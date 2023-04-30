@@ -1,0 +1,1 @@
+document.getElementById("float-left-300").remove();document.getElementById("float-right-300").remove();

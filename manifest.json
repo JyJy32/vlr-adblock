@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "vlr adblock",
+    "version": "1.2",
+    "content_scripts": [
+        {
+        "js": ["scripts/content.js"],
+        "matches": ["https://www.vlr.gg/*"]
+    }, {
+        "js": ["scripts/wikia.js"],
+        "matches": ["https://*.fandom.com/*"]
+    }, {
+        "js": ["scripts/garlic.js"],
+        "matches": ["https://garticphone.com/*"]
+    }
+]
+}
